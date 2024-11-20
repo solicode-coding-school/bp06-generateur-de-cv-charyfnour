@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Générateur de CV</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Générateur de CV</h1>
+    <form id="cvForm">
+       
+        <section>
+            <h2>Informations personnelles</h2>
+            
+                <label for="name">Nom :</label>
+                <input type="text" id="name" required>
+            
+                <label for="email">Email :</label>
+                <input type="email" id="email" required>
+           
+                <label for="phone">Téléphone :</label>
+                <input type="tel" id="phone" required>
+            
+                <label for="address">Adresse :</label>
+                <input type="text" id="address">
+           
+                <label for="birthday">Date de naissance :</label>
+                <input type="date" id="birthday">
+           
+                <label for="photo">Photo :</label>
+                <input type="file" id="photo" accept="image/*">
+            
+        </section>
+
+        
+        <section>
+            <h2>Éducation</h2>
+            <div id="educationContainer"></div>
+            <button type="button" id="addEducation">+ Ajouter</button>
+        </section>
+
+        
+        <section>
+            <h2>Expériences professionnelles</h2>
+            <div id="experienceContainer"></div>
+            <button type="button" id="addExperience">+ Ajouter</button>
+        </section>
+
+        <button type="button" id="generateCV">Générer le CV</button>
+    
+
+   
+   
+
+<script src="script.js"></script>

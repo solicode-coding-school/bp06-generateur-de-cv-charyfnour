@@ -1,0 +1,101 @@
+body {
+  font-family: 'Roboto', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+  color: #333;
+}
+
+.container {
+  max-width: 800px;
+  margin: 30px auto;
+  padding: 25px;
+  background: #000000;
+  border-radius: 8px;
+  border: 1px solid #e0e6ef;
+}
+
+h1, h2 {
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-size: 2em;
+  border-bottom: 2px solid #bc1a1a;
+  padding-bottom: 10px;
+}
+
+h2 {
+  font-size: 1.5em;
+}
+
+form label {
+  font-weight: bold;
+  margin-bottom: 8px;
+  display: inline-block;
+  color: #ffffff;
+}
+
+input, button, textarea {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 1px solid #bdc3c7;
+  border-radius: 6px;
+  box-sizing: border-box;
+  font-size: 1em;
+  background-color: #ecf0f1;
+  color: #2c3e50;
+}
+
+input:focus, textarea:focus {
+  border-color: #1abc9c;
+  outline: none;
+  background-color: #e8f6f3;
+}
+
+button {
+  background: #045102;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 12px;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #a01616;
+}
+
+button:active {
+  background: #12876b;
+}
+
+#cvPreview {
+  margin-top: 30px;
+  border: 1px solid #e0e6ef;
+  padding: 20px;
+  background: #fcfcfc;
+  border-radius: 6px;
+}
+
+@media (max-width: 600px) {
+  .container {
+    padding: 15px;
+  }
+
+  h1 {
+    font-size: 1.8em;
+  }
+
+  h2 {
+    font-size: 1.3em;
+  }
+
+  input, button, textarea {
+    font-size: 0.9em;
+    padding: 10px;
+  }
+}
